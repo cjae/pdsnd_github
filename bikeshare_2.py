@@ -135,6 +135,9 @@ def load_data(city, month, day):
     # load data file into a dataframe
     data_frame = pd.read_csv(CITY_DATA[city])
 
+    # Rename the first column
+    data_frame = data_frame.rename(columns={'Unnamed: 0': 'Id'})
+
     # convert the Start Time column to datetime
     data_frame['Start Time'] = pd.to_datetime(data_frame['Start Time'])
 
