@@ -36,4 +36,4 @@ This project utilizes Python for the exploration of data provided by Motivate, a
 3. washington.csv
 
 ### Credits
-Thanks to Mary-Dancilla, who guided me on this project.
+Thanks to Mary-Dancilla and Tayo Jabar, who guided me on this project.
