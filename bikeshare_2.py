@@ -44,7 +44,7 @@ def get_filters():
         data_filter = data_filter.lower().strip()
         if data_filter in ['m', 'd', 'b', 'none']:
             break
-        elif city == 'q':
+        if city == 'q':
             sys.exit("User quits program")
         else:
             print("Invalid input. Please choose a valid filter or Q to quit.")
