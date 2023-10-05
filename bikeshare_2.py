@@ -33,7 +33,7 @@ def get_filters():
         city = input("Enter C for Chicago, N for New york or W for Washington: ").lower().strip()
         if city in CITY_DATA:
             break
-        elif city == 'q':
+        if city == 'q':
             sys.exit("User quits program")
         else:
             print("Invalid input. Please choose a valid city or Q to quit.")
